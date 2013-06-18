@@ -7,7 +7,7 @@ class CardsController < ApplicationController
 
 def create
   	Card.create params[:card]  
-  	redirect_to :back
+  	redirect_to :back  
   end
 
 def edit
