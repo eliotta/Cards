@@ -3,6 +3,11 @@ class CardsController < ApplicationController
   	@c2 = "Add Card"
   	@card = Card.new 
   	@cards = Card.all
+    @variable = 2 +  2 + 2
+    @card.card
+    @cv = @card.veriff  + 8
+    @vc = Card.forfind
+    @vv = 3
   end
 
 def create
