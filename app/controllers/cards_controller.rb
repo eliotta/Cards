@@ -24,13 +24,13 @@ def update
   	 if card.update_attributes params[:card]
       redirect_to cards_path, :notice => 'Card was updated'
      else
-	    redirect_to :back, :notice => 'update error'
+	    redirect_to :back, :notice => 'update  error'
      end
   end
 
 def destroy
   Card.destroy params[:id]
-  redirect_to :back, :notice => 'Destruction complete'
+  redirect_to :back, :notice => 'Destruction  complete'
   end
 
 
